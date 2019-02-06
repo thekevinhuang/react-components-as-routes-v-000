@@ -25,7 +25,7 @@ const Navbar = () => {
       activeStyle={{
         background: 'darkblue'
       }}
-    >Home</Navlink>
+    >Home</NavLink>
     <NavLink
       to="about"
       exact
@@ -33,7 +33,15 @@ const Navbar = () => {
       activeStyle={{
         background: 'darkblue'
       }}
-    >About</Navlink>
+    >About</NavLink>
+    <NavLink
+      to="login"
+      exact
+      style={link}
+      activeStyle={{
+        background : 'darkblue'
+      }}
+    >Login</NavLink>
   </div>
 }
 
