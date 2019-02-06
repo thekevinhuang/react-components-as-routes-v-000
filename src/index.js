@@ -28,12 +28,13 @@ const Login = () => {
 
           <label htmlFor="username">Username</label>
         </div>
+          
+        <div>
           <input type="password" name="password" placeholder="Password" />
 
           <label htmlFor="password">Password</label>
-        <div>
-
         </div>
+        <input type="submit" value="Login" />
       </form>
     </div>
   )
