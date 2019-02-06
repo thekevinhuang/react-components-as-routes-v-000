@@ -16,7 +16,26 @@ const link = {
   color: 'white',
 }
 
-const Navbar
+const Navbar = () => {
+  <div>
+    <NavLink
+      to="/"
+      exact
+      style={link}
+      activeStyle={{
+        background: 'darkblue'
+      }}
+    >Home</Navlink>
+    <NavLink
+      to="about"
+      exact
+      style={link}
+      activeStyle={{
+        background: 'darkblue'
+      }}
+    >About</Navlink>
+  </div>
+}
 
 ReactDOM.render((
   <Router>
